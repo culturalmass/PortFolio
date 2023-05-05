@@ -11,14 +11,14 @@ import P09 from "./projects/P09.jpg";
 export const skill = [
   {
     tittle: "Javacript",
-    progress: "50%",
+    progress: "65%",
     restStyle: "progress-bar-1",
     restMargin1: "ml-[9rem]",
     restMargin2: "-ml-[12rem]",
   },
   {
     tittle: "React",
-    progress: "65%",
+    progress: "60%",
     restStyle: "progress-bar-2",
     restMargin1: "-ml-[0rem]",
     restMargin2: "-ml-[8rem]",

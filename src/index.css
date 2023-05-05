@@ -35,11 +35,11 @@ body {
 
 .progress-bar-1 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#fafffa 50%, #666966 55%);
+    conic-gradient(#fafffa 65%, #666966 75%);
 }
 .progress-bar-2 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#fafffa 65%, #666966 70%);
+    conic-gradient(#fafffa 60%, #666966 65%);
 }
 .progress-bar-3 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
