@@ -35,11 +35,11 @@ body {
 
 .progress-bar-1 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#fafffa 65%, #666966 75%);
+    conic-gradient(#fafffa 75%, #666966 80%);
 }
 .progress-bar-2 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#fafffa 60%, #666966 65%);
+    conic-gradient(#fafffa 70%, #666966 75%);
 }
 .progress-bar-3 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
@@ -47,23 +47,23 @@ body {
 }
 .progress-bar-4 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#fafffa 30%, #666966 35%);
+    conic-gradient(#fafffa 55%, #666966 60%);
 }
 .progress-bar-5 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#fafffa 50%, #666966 55%);
+    conic-gradient(#fafffa 60%, #666966 65%);
 }
 .progress-bar-6 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#fafffa 60%, #666966 65%);
+    conic-gradient(#fafffa 70%, #666966 75%);
 }
 .progress-bar-7 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#fafffa 30%, #666966 35%);
+    conic-gradient(#fafffa 50%, #666966 55%);
 }
 .progress-bar-8 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
-    conic-gradient(#fafffa 30%, #666966 35%);
+    conic-gradient(#fafffa 55%, #666966 60%);
 }
 .progress-bar-9 {
   background: radial-gradient(closest-side, black 79%, transparent 80% 100%),
