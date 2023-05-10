@@ -98,7 +98,7 @@ export const projects = [
     id: 3,
     url: "https://minicircuit.dbr2olmg96k0h.amplifyapp.com/",
     image: P03,
-    name: "Course-3dShow-ThreeJS",
+    name: "Course-MiniCircuit-ThreeJS",
   },
   {
     id: 4,
