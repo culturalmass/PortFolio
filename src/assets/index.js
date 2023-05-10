@@ -89,6 +89,12 @@ export const projects = [
     name: "Original-Web3-Game-OnChainGods",
   },
   {
+    id: 4,
+    url: "https://www.cryptotrainscorp.cc/",
+    image: P04,
+    name: "Original-Web3-Game-CryptoTrains",
+  },
+  {
     id: 2,
     url: "https://3dshow.d2zltgslfkwkot.amplifyapp.com/",
     image: P02,
@@ -101,22 +107,16 @@ export const projects = [
     name: "Course-MiniCircuit-ThreeJS",
   },
   {
-    id: 4,
-    url: "https://www.cryptotrainscorp.cc/",
-    image: P04,
-    name: "Original-Web3-Game-CryptoTrains",
+    id: 6,
+    url: "https://main.dj0oyzyd6w80m.amplifyapp.com/",
+    image: P06,
+    name: "Original-Web-Game-React",
   },
   {
     id: 5,
     url: "https://github.com/culturalmass/AWS-Expo-ReactNative-TicTacToc",
     image: P05,
     name: "Course-AWS-ReactNative-Game",
-  },
-  {
-    id: 6,
-    url: "https://main.dj0oyzyd6w80m.amplifyapp.com/",
-    image: P06,
-    name: "Original-Web-Game-React",
   },
   {
     id: 7,

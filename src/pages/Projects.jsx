@@ -7,10 +7,10 @@ import {
 import styles from "../styles";
 
 export const Projects = () => {
-  const slidePagination = 6;
+  const slidePagination = 3;
   const [pos, setPos] = useState({
     pos1: 0,
-    pos2: 6,
+    pos2: slidePagination,
     pagination: Math.ceil(projects.length / slidePagination),
     currentPage: 1,
   });
@@ -21,15 +21,15 @@ export const Projects = () => {
     }
     if (option > pos.currentPage) {
       setPos({
-        pos1: pos.pos1 + 6,
-        pos2: pos.pos2 + 6,
+        pos1: pos.pos1 + slidePagination,
+        pos2: pos.pos2 + slidePagination,
         pagination: pos.pagination,
         currentPage: option,
       });
     } else if (option < pos.currentPage) {
       setPos({
-        pos1: pos.pos1 - 6,
-        pos2: pos.pos2 - 6,
+        pos1: pos.pos1 - slidePagination,
+        pos2: pos.pos2 - slidePagination,
         pagination: pos.pagination,
         currentPage: option,
       });
@@ -41,7 +41,7 @@ export const Projects = () => {
         <h1 className={styles.pSTittle} id="projects">
           Projects
         </h1>
-        <div className={`${styles.flexCenter} ${styles.projectsWrapper}`}>
+        <div className={`${styles.projectsWrapper}`}>
           {projects.slice(pos.pos1, pos.pos2).map((project) => (
             <a
               href={`${project.url}`}

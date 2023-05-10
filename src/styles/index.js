@@ -31,7 +31,7 @@ const styles = {
     "absolute left-[38rem] top-[10rem] opacity-[0.35] drop-shadow-[0px_0px_15px_rgba(196,196,196,0.7)]",
 
   //Skills Section
-  sSWrapper: "h-screen font-retro pt-[4rem] cursor-default",
+  sSWrapper: "h-screen font-retro pt-[4rem] cursor-default justify-center",
   sSContainer: "h-[40rem] w-[75rem] ml-[7rem] mt-[2.5rem] rounded-lg bg-black",
   sSTitle:
     "flex justify-center ml-[2rem] text-[4rem] pt-[2.5rem] mb-[2rem] text-white",
@@ -41,20 +41,20 @@ const styles = {
   sSBtnRight: "absolute left-[78rem] top-[150vh] text-[4rem] cursor-pointer",
 
   //Projects Section
-  pSWrapper: "h-screen font-retro pt-[2rem] text-center",
-  pSTittle: "flex justify-center ml-[2rem] text-[4rem] pt-[3.5rem] text-white",
+  pSWrapper: "h-screen font-retro pt-[2rem] text-center justify-center",
+  pSTittle: "flex justify-center ml-[2rem] text-[4rem] pt-[5rem] text-white",
   flexCenter: "flex items-center justify-center",
-  projectsWrapper:
-    "grid grid-cols-3 gap-x-[8rem] mt-[1rem] ml-[2rem] max-w-[1200px]",
+  projectsWrapper: "grid grid-cols-3 mt-[5rem] ml-[0.5rem]",
   pSBgCard:
-    "w-[27rem] h-[15rem] p-2 glass-morphism m-4 rounded-lg cursor-pointer project-card",
+    "w-[28rem] h-[17rem] p-2 glass-morphism m-4 rounded-lg cursor-pointer project-card",
   projectsCardImg: "w-full h-full object-cover rounded-md",
   info: "info",
   projectsCardText: "font-retro font-semibold text-xl text-white",
   pSHidden: "absolute hidden",
-  pSBtnLeft: "absolute left-[0.5rem] top-[258vh] text-[3.5rem] cursor-pointer",
+  pSBtnLeft:
+    "absolute left-[1.5rem] top-[252vh] text-[3.5rem] cursor-pointer z-20",
   pSBtnRight:
-    "absolute left-[84.5rem] top-[258vh] text-[3.5rem] cursor-pointer",
+    "absolute left-[84.5rem] top-[252vh] text-[3.5rem] cursor-pointer z-20",
 
   //Footer Section
   fSWrapper:
