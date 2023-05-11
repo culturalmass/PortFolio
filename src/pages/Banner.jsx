@@ -59,7 +59,7 @@ export const Banner = () => {
   return (
     <>
       <section className={styles.bSWrapper} id="home">
-        <div>
+        <div className={styles.bSContainer}>
           <button className={styles.bSTitle}>Welcome to my Portfolio</button>
           <h1 className={styles.bSPromt}>
             {`Hi! I'm Manuel`}
@@ -68,7 +68,7 @@ export const Banner = () => {
           </h1>
           <h3 className={styles.bSLTittle}>More About me</h3>
           <span className={styles.bSInfoText}>
-            strong communication, organized, goal-oriented,
+            strong communication, organized, easy to <br /> approach,
           </span>
           <br />
           <span className={styles.bSInfoText}>
@@ -76,7 +76,7 @@ export const Banner = () => {
           </span>
           <br />
           <span className={styles.bSInfoText}>
-            eager to learn, easy to approach.
+            eager to learn, goal-oriented.
           </span>
           <a
             className={styles.bSConnect}

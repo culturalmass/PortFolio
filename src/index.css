@@ -104,7 +104,6 @@ body {
 
 .project-card .info {
   position: absolute;
-  top: 30%;
   z-index: 3;
   color: #fff;
   opacity: 0;

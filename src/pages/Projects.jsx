@@ -41,43 +41,57 @@ export const Projects = () => {
         <h1 className={styles.pSTittle} id="projects">
           Projects
         </h1>
-        <div className={`${styles.projectsWrapper}`}>
-          {projects.slice(pos.pos1, pos.pos2).map((project) => (
-            <a
-              href={`${project.url}`}
-              target="_blank"
-              rel="noreferrer"
-              key={project.id}
-            >
-              <div className={`${styles.flexCenter} ${styles.pSBgCard}`}>
-                <img
-                  src={project.image}
-                  alt={"project_" + project.id}
-                  className={styles.projectsCardImg}
-                />
-                <div className={styles.info}>
-                  <p className={styles.projectsCardText}>{project.name}</p>
+        <div className={styles.pSBox}>
+          <div className={`${styles.projectsWrapper}`}>
+            {projects.slice(pos.pos1, pos.pos2).map((project) => (
+              <a
+                href={`${project.url}`}
+                target="_blank"
+                rel="noreferrer"
+                key={project.id}
+              >
+                <div className={`${styles.flexCenter} ${styles.pSBgCard}`}>
+                  <img
+                    src={project.image}
+                    alt={"project_" + project.id}
+                    className={styles.projectsCardImg}
+                  />
+                  <div className={styles.info}>
+                    <p className={styles.projectsCardText}>{project.name}</p>
+                  </div>
                 </div>
-              </div>
-            </a>
-          ))}
+              </a>
+            ))}
+          </div>
+          <div className={styles.pSBtnWrapper}>
+            <div
+              className={`${
+                pos.pos1 === 0 ? styles.pSHidden : styles.pSBtnGeneral
+              }`}
+            >
+              <IoIosArrowDropleftCircle
+                className={styles.pSBtn}
+                onClick={() => {
+                  handleProjects({ option: pos.currentPage + -1 });
+                }}
+              />
+            </div>
+            <div
+              className={`${
+                pos.currentPage === pos.pagination
+                  ? styles.pSHidden
+                  : styles.pSBtnGeneral
+              }`}
+            >
+              <IoIosArrowDroprightCircle
+                className={styles.pSBtn}
+                onClick={() => {
+                  handleProjects({ option: pos.currentPage + 1 });
+                }}
+              />
+            </div>
+          </div>
         </div>
-        <IoIosArrowDropleftCircle
-          className={`${pos.pos1 === 0 ? styles.pSHidden : styles.pSBtnLeft}`}
-          onClick={() => {
-            handleProjects({ option: pos.currentPage + -1 });
-          }}
-        />
-        <IoIosArrowDroprightCircle
-          className={`${
-            pos.currentPage === pos.pagination
-              ? styles.pSHidden
-              : styles.pSBtnRight
-          }`}
-          onClick={() => {
-            handleProjects({ option: pos.currentPage + 1 });
-          }}
-        />
       </section>
     </>
   );

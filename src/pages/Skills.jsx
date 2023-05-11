@@ -39,39 +39,51 @@ export const Skills = () => {
 
   return (
     <section className={styles.sSWrapper} id="skills">
-      <div className={styles.sSContainer}>
-        <h1 className={styles.sSTitle}>Skills</h1>
-        <p className={styles.sSMargin}>
-          Reliable, Problem solver, active listener, autodidact, analytical,
-          flexible and more...
-        </p>
-        <div className={styles.sSBtnWrapper}>
-          <IoIosArrowDropleftCircle
-            className={`${pos.pos1 === 0 ? styles.pSHidden : styles.sSBtnLeft}`}
-            onClick={() => {
-              handleSkills({ option: pos.currentPage + -1 });
-            }}
-          />
-          <IoIosArrowDroprightCircle
-            className={`${
-              pos.currentPage === pos.pagination
-                ? styles.pSHidden
-                : styles.sSBtnRight
-            }`}
-            onClick={() => {
-              handleSkills({ option: pos.currentPage + 1 });
-            }}
-          />
-          {skill.slice(pos.pos1, pos.pos2).map((s) => (
-            <CustomCircleProgress
-              key={s.tittle}
-              tittle={s.tittle}
-              progress={s.progress}
-              restStyle={s.restStyle}
-              restMargin1={s.restMargin1}
-              restMargin2={s.restMargin2}
-            />
-          ))}
+      <div className={styles.sSBox}>
+        <div className={styles.sSContainer}>
+          <h1 className={styles.sSTitle}>Skills</h1>
+          <p className={styles.sSMargin}>
+            Reliable, Problem solver, active listener, autodidact, analytical,
+            flexible and more...
+          </p>
+          <div className={styles.sSBtnWrapper}>
+            <div
+              className={`${
+                pos.pos1 === 0 ? styles.pSHidden : styles.sSBtnLeft
+              }`}
+            >
+              <IoIosArrowDropleftCircle
+                className={styles.pSBtn}
+                onClick={() => {
+                  handleSkills({ option: pos.currentPage + -1 });
+                }}
+              />
+            </div>
+            {skill.slice(pos.pos1, pos.pos2).map((s) => (
+              <CustomCircleProgress
+                key={s.tittle}
+                tittle={s.tittle}
+                progress={s.progress}
+                restStyle={s.restStyle}
+                restMargin1={s.restMargin1}
+                restMargin2={s.restMargin2}
+              />
+            ))}
+            <div
+              className={`${
+                pos.currentPage === pos.pagination
+                  ? styles.pSHidden
+                  : styles.sSBtnRight
+              }`}
+            >
+              <IoIosArrowDroprightCircle
+                className={styles.pSBtn}
+                onClick={() => {
+                  handleSkills({ option: pos.currentPage + 1 });
+                }}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
