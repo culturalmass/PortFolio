@@ -126,7 +126,7 @@ export const projects = [
   },
   {
     id: 8,
-    url: "https://main.d3tn3jxyjqm5xp.amplifyapp.com/",
+    url: "https://main.d2l7n22emm8moq.amplifyapp.com/",
     image: P08,
     name: "Course-Web3-NextJs-Marketplace",
   },
