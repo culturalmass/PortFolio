@@ -79,6 +79,13 @@ export const skill = [
     restMargin1: "ml-[7rem]",
     restMargin2: "-ml-[8rem]",
   },
+  {
+    tittle: "Git",
+    progress: "70%",
+    restStyle: "progress-bar-10",
+    restMargin1: "ml-[0rem]",
+    restMargin2: "-ml-[6.5rem]",
+  },
 ];
 
 export const projects = [
