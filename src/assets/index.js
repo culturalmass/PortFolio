@@ -91,7 +91,7 @@ export const skill = [
 export const projects = [
   {
     id: 1,
-    url: "https://dev.d1ybp1uxqpxmwx.amplifyapp.com/",
+    url: "https://www.onchaingods.com/",
     image: P01,
     name: "Original-Web3-Game-OnChainGods",
   },
