@@ -25,7 +25,7 @@ const styles = {
   bSPulse: "animate-pulse text-[4rem] z-10",
   bSLTittle:
     "ml-[1.5rem] text-[1.5rem] border-b-2 w-[15rem] mb-[0.8rem] cursor-default",
-  bSInfoText: "ml-[1.5rem] cursor-default",
+  bSInfoText: "ml-[1.5rem] cursor-default z-10",
   bSConnect: "ml-[1.5rem] text-[2rem] mt-[1.5rem] flex items-center",
   bSBtn: "mt-[0.2rem] ml-[1rem] text-[3rem]",
   bSVideoWrapper:
