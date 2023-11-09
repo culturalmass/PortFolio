@@ -6,8 +6,10 @@ import {
 } from "react-icons/io";
 import styles from "../styles";
 
+const isSmall = window.innerWidth <= 640;
+
 export const Projects = () => {
-  const slidePagination = 3;
+  const slidePagination = isSmall ? 1 : 3;
   const [pos, setPos] = useState({
     pos1: 0,
     pos2: slidePagination,

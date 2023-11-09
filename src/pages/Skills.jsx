@@ -55,7 +55,7 @@ export const Skills = () => {
               <IoIosArrowDropleftCircle
                 className={styles.pSBtn}
                 onClick={() => {
-                  handleSkills({ option: pos.currentPage + -1 });
+                  handleSkills({ option: pos.currentPage - 1 });
                 }}
               />
             </div>
@@ -65,8 +65,7 @@ export const Skills = () => {
                 tittle={s.tittle}
                 progress={s.progress}
                 restStyle={s.restStyle}
-                restMargin1={s.restMargin1}
-                restMargin2={s.restMargin2}
+                position={pos.pos1}
               />
             ))}
             <div

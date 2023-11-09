@@ -7,7 +7,7 @@ export const Footer = () => {
     <>
       <section className={styles.fSWrapper}>
         <div className="">© 2023 ManuelPortfolio™ All Rights Reserved</div>
-        <div className="flex">
+        <div className="flex flex-row sm:flex">
           <a
             href="https://www.linkedin.com/in/manuel-herrera-mu%C3%B1oz-0b453711b/"
             target="_blank"
