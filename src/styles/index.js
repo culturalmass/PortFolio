@@ -56,7 +56,8 @@ const styles = {
   pSTittle:
     "flex justify-center ml-[2rem] text-[1.4rem] sm:text-[4rem] text-white",
   flexCenter: "flex items-center justify-center",
-  projectsWrapper: "grid grid-cols-3 gap-x-[1%] items-center justify-center",
+  projectsWrapper:
+    "flex flex-row flex-nowrap sm:grid sm:grid-cols-3 sm:gap-x-[1%] items-center justify-center",
   pSBgCard:
     "w-[25rem] sm:w-[28rem] sm:h-[17rem] p-2 glass-morphism m-4 rounded-lg cursor-pointer project-card",
   projectsCardImg: "w-full h-full object-cover rounded-md",
@@ -70,6 +71,7 @@ const styles = {
   //Footer Section
   fSWrapper:
     "flex w-screen mt-[1rem] sm:-mt-[2rem] sm:space-x-[15rem] justify-center items-center text-[0.7rem] sm:text-[18px] font-retro",
-  fSBtn: "hidden sm:flex sm:text-[42px]",
+  fSBtn: "text-[2.5rem] sm:flex sm:text-[42px]",
+  fSBtnGit: "text-[2.3rem] sm:flex sm:text-[38px]",
 };
 export default styles;

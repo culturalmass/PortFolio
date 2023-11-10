@@ -1,6 +1,6 @@
 import { HashLink as Link } from "react-router-hash-link";
 import { AiFillLinkedin, AiFillTwitterSquare } from "react-icons/ai";
-import { RiDiscordFill } from "react-icons/ri";
+import { FaGithubSquare } from "react-icons/fa";
 import { TbCircleArrowUpFilled } from "react-icons/tb";
 import logo from "../assets/img/logoPortfolio.jpg";
 import styles from "../styles";
@@ -28,18 +28,18 @@ export const Navbar = () => {
             <AiFillLinkedin className={styles.fSBtn} />
           </a>
           <a
+            href="https://github.com/culturalmass"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithubSquare className={styles.fSBtnGit} />
+          </a>
+          <a
             href="https://twitter.com/melcrafter"
             target="_blank"
             rel="noreferrer"
           >
             <AiFillTwitterSquare className={styles.fSBtn} />
-          </a>
-          <a
-            href="https://discordapp.com/users/301732285181460480"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <RiDiscordFill className={styles.fSBtn} />
           </a>
         </div>
         <a
