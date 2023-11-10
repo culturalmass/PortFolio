@@ -57,13 +57,14 @@ const styles = {
     "flex justify-center ml-[2rem] text-[1.4rem] sm:text-[4rem] text-white",
   flexCenter: "flex items-center justify-center",
   projectsWrapper:
-    "flex flex-row flex-nowrap sm:grid sm:grid-cols-3 sm:gap-x-[1%] items-center justify-center",
+    "grid overflow-x-auto max-w-screen h-[16rem] sm:h-[19rem] sm:grid sm:grid-cols-3 sm:gap-x-[1%] items-center justify-center",
+  // overflow-scroll
   pSBgCard:
     "w-[25rem] sm:w-[28rem] sm:h-[17rem] p-2 glass-morphism m-4 rounded-lg cursor-pointer project-card",
   projectsCardImg: "w-full h-full object-cover rounded-md",
   info: "info",
   projectsCardText: "font-retro font-semibold text-xl text-white",
-  pSBtnWrapper: "flex items-center justify-center gap-x-[45%]",
+  pSBtnWrapper: "hidden sm:flex items-center justify-center gap-x-[45%]",
   pSBtn: "text-[1.5rem] sm:text-[4rem] cursor-pointer",
   pSHidden: "text-black",
   pSBtnGeneral: "relative flex items-center",

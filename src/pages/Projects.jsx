@@ -45,25 +45,49 @@ export const Projects = () => {
         </h1>
         <div className={styles.pSBox}>
           <div className={`${styles.projectsWrapper}`}>
-            {projects.slice(pos.pos1, pos.pos2).map((project) => (
-              <a
-                href={`${project.url}`}
-                target="_blank"
-                rel="noreferrer"
-                key={project.id}
-              >
-                <div className={`${styles.flexCenter} ${styles.pSBgCard}`}>
-                  <img
-                    src={project.image}
-                    alt={"project_" + project.id}
-                    className={styles.projectsCardImg}
-                  />
-                  <div className={styles.info}>
-                    <p className={styles.projectsCardText}>{project.name}</p>
-                  </div>
-                </div>
-              </a>
-            ))}
+            {isSmall
+              ? projects.map((project) => (
+                  <a
+                    href={`${project.url}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    key={project.id}
+                  >
+                    <div className={`${styles.flexCenter} ${styles.pSBgCard}`}>
+                      <img
+                        src={project.image}
+                        alt={"project_" + project.id}
+                        className={styles.projectsCardImg}
+                      />
+                      <div className={styles.info}>
+                        <p className={styles.projectsCardText}>
+                          {project.name}
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                ))
+              : projects.slice(pos.pos1, pos.pos2).map((project) => (
+                  <a
+                    href={`${project.url}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    key={project.id}
+                  >
+                    <div className={`${styles.flexCenter} ${styles.pSBgCard}`}>
+                      <img
+                        src={project.image}
+                        alt={"project_" + project.id}
+                        className={styles.projectsCardImg}
+                      />
+                      <div className={styles.info}>
+                        <p className={styles.projectsCardText}>
+                          {project.name}
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                ))}
           </div>
           <div className={styles.pSBtnWrapper}>
             <div
