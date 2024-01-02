@@ -8,7 +8,7 @@ const styles = {
   cCPWrapper:
     "w-[55px] sm:w-[100px] rounded-full h-[55px] sm:h-[100px] scale-[1.25] sm:scale-[1.5]",
   cCPNumber: "sm:text-[2.4rem] -ml-12 sm:-ml-24 z-10",
-  cCPInfo: "sm:text-[2.4rem]",
+  cCPInfo: "sm:text-[2.4rem] pb-2",
 
   //Navbar Section
   nBWrapper:
@@ -41,7 +41,7 @@ const styles = {
   sSWrapper:
     "sm:h-screen font-retro sm:pt-[1rem] cursor-default justify-center",
   sSContainer:
-    "sm:h-[40rem] w-screen sm:w-[75rem] sm:ml-[7rem] mt-[2.5rem] rounded-lg bg-black",
+    "sm:h-[40rem] w-screen sm:w-[75rem] sm:ml-[3rem] mt-[2.5rem] rounded-lg bg-black",
   sSBox: "flex flex-col items-center justify-center sm:h-screen",
   sSTitle:
     "flex justify-center ml-[2rem] text-[1.5rem] sm:text-[4rem] pt-[2.5rem] sm:mb-[2rem] text-white",

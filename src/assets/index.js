@@ -7,6 +7,12 @@ import P06 from "./projects/P06.jpg";
 import P07 from "./projects/P07.jpg";
 import P08 from "./projects/P08.jpg";
 import P09 from "./projects/P09.jpg";
+import P10 from "./projects/P10.jpg";
+import P11 from "./projects/P11.jpg";
+import P12 from "./projects/P12.jpg";
+import P13 from "./projects/P13.jpg";
+import P14 from "./projects/P14.jpg";
+import P15 from "./projects/P15.jpg";
 
 export const skill = [
   {
@@ -26,13 +32,13 @@ export const skill = [
   },
   {
     tittle: "Typescript",
-    progress: "55%",
+    progress: "60%",
     restStyle: "progress-bar-4",
   },
   {
     tittle: "AWS",
-    progress: "60%",
-    restStyle: "progress-bar-5",
+    progress: "70%",
+    restStyle: "progress-bar-6",
   },
   {
     tittle: "Solidity",
@@ -41,13 +47,13 @@ export const skill = [
   },
   {
     tittle: "NextJs",
-    progress: "50%",
-    restStyle: "progress-bar-7",
+    progress: "70%",
+    restStyle: "progress-bar-6",
   },
   {
     tittle: "ThreeJs",
-    progress: "55%",
-    restStyle: "progress-bar-8",
+    progress: "60%",
+    restStyle: "progress-bar-5",
   },
   {
     tittle: "Blender",
@@ -68,57 +74,93 @@ export const skill = [
 
 export const projects = [
   {
-    id: 1,
-    url: "https://www.onchaingods.com/",
-    image: P01,
-    name: "Original-Web3-Game-OnChainGods",
+    id: 15,
+    url: "https://course-next-js13-5-4-car-hub.vercel.app/",
+    image: P15,
+    name: "Course-NextJs-WebApp-CarHub",
   },
   {
-    id: 4,
-    url: "https://www.cryptotrainscorp.cc/",
-    image: P04,
-    name: "Original-Web3-Game-CryptoTrains",
+    id: 14,
+    url: "https://github.com/culturalmass/SandiaPop-ReactNativeApp/",
+    image: P14,
+    name: "Original-ReactNative-WebApp-SandiaPop",
   },
   {
-    id: 2,
-    url: "https://3dshow.d2zltgslfkwkot.amplifyapp.com/",
-    image: P02,
-    name: "Course-3dShow-ThreeJS",
+    id: 13,
+    url: "https://dev.d2zdx8dm01vexi.amplifyapp.com/",
+    image: P13,
+    name: "Course-ThreeJs-WebApp-3DAirplane",
   },
   {
-    id: 3,
-    url: "https://minicircuit.dbr2olmg96k0h.amplifyapp.com/",
-    image: P03,
-    name: "Course-MiniCircuit-ThreeJS",
+    id: 12,
+    url: "https://e-commerce-cm.payloadcms.app/",
+    image: P12,
+    name: "Course-NextJs-WebApp-TechHaven",
   },
   {
-    id: 6,
-    url: "https://main.dj0oyzyd6w80m.amplifyapp.com/",
-    image: P06,
-    name: "Original-Web-Game-React",
+    id: 11,
+    url: "https://github.com/culturalmass/Course-ReactNative-JobFinder",
+    image: P11,
+    name: "Course-ReactNative-WebApp-JobFinder",
   },
   {
-    id: 5,
-    url: "https://github.com/culturalmass/AWS-Expo-ReactNative-TicTacToc",
-    image: P05,
-    name: "Course-AWS-ReactNative-Game",
-  },
-  {
-    id: 7,
-    url: "https://main.d3tn3jxyjqm5xp.amplifyapp.com/",
-    image: P07,
-    name: "Course-Web3-Dapp",
-  },
-  {
-    id: 8,
-    url: "https://main.d2l7n22emm8moq.amplifyapp.com/",
-    image: P08,
-    name: "Course-Web3-NextJs-Marketplace",
+    id: 10,
+    url: "https://course-next-js-travelap.vercel.app/",
+    image: P10,
+    name: "Course-NextJs-WebApp-Hilink",
   },
   {
     id: 9,
-    url: "https://calendar.dkb4wiugfkoo6.amplifyapp.com/",
+    url: "https://www.onchaingods.com/",
     image: P09,
-    name: "Course-MERN-Calendar",
+    name: "Original-React-Web3-OnChainGods",
+  },
+  {
+    id: 8,
+    url: "https://www.cryptotrainscorp.cc/",
+    image: P08,
+    name: "Original-React-Web3-CryptoTrains",
+  },
+  {
+    id: 7,
+    url: "https://3dshow.d2zltgslfkwkot.amplifyapp.com/",
+    image: P07,
+    name: "Course-ThreeJs-WebApp-3dShow",
+  },
+  {
+    id: 6,
+    url: "https://minicircuit.dbr2olmg96k0h.amplifyapp.com/",
+    image: P06,
+    name: "Course-ThreeJs-WebApp-MiniCircuit",
+  },
+  {
+    id: 5,
+    url: "https://main.dj0oyzyd6w80m.amplifyapp.com/",
+    image: P05,
+    name: "Original-React-WebApp-OneHundredProblem",
+  },
+  {
+    id: 4,
+    url: "https://github.com/culturalmass/AWS-Expo-ReactNative-TicTacToc",
+    image: P04,
+    name: "Course-ReactNative-WebApp-TicTacToc",
+  },
+  {
+    id: 3,
+    url: "https://main.d3tn3jxyjqm5xp.amplifyapp.com/",
+    image: P03,
+    name: "Course-React-Web3-Dapp",
+  },
+  {
+    id: 2,
+    url: "https://main.d2l7n22emm8moq.amplifyapp.com/",
+    image: P02,
+    name: "Course-NextJs-Web3-Marketplace",
+  },
+  {
+    id: 1,
+    url: "https://calendar.dkb4wiugfkoo6.amplifyapp.com/",
+    image: P01,
+    name: "Course-MERN-WebApp-Calendar",
   },
 ];
