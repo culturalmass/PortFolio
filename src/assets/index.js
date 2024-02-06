@@ -13,6 +13,9 @@ import P12 from "./projects/P12.jpg";
 import P13 from "./projects/P13.jpg";
 import P14 from "./projects/P14.jpg";
 import P15 from "./projects/P15.jpg";
+import P16 from "./projects/P16.jpg";
+import P17 from "./projects/P17.jpg";
+import P18 from "./projects/P18.jpg";
 
 export const skill = [
   {
@@ -73,6 +76,24 @@ export const skill = [
 ];
 
 export const projects = [
+  {
+    id: 18,
+    url: "https://streamingapp-gold.vercel.app/",
+    image: P18,
+    name: "Course-NextJs-WebApp-StreamingApp",
+  },
+  {
+    id: 17,
+    url: "https://main.d2jjd8g9wcl0ab.amplifyapp.com/",
+    image: P17,
+    name: "Course-ThreeJs-WebApp-SpaceShip3d",
+  },
+  {
+    id: 16,
+    url: "https://messenger-app-neon.vercel.app/",
+    image: P16,
+    name: "Course-NextJs-WebApp-MessengerApp",
+  },
   {
     id: 15,
     url: "https://course-next-js13-5-4-car-hub.vercel.app/",

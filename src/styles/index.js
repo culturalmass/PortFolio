@@ -16,7 +16,7 @@ const styles = {
   nBImg: "object-contain h-[40px] mr-[14rem]",
   nBLinkWrapper: "hidden sm:flex sm:drop-shadow-[3px_2px_3px_rgba(0,0,0,0.7)]",
   nBBtnBottom:
-    "hidden sm:flex fixed bottom-[2%] right-[2%] text-[3rem] cursor-pointer",
+    "hidden sm:flex fixed bottom-[2%] right-[2%] text-[3rem] cursor-pointer z-50",
 
   //Banner Section
   bSWrapper:
@@ -57,10 +57,9 @@ const styles = {
     "flex justify-center ml-[2rem] text-[1.4rem] sm:text-[4rem] text-white",
   flexCenter: "flex items-center justify-center",
   projectsWrapper:
-    "grid overflow-x-auto max-w-screen h-[16rem] sm:h-[19rem] sm:grid sm:grid-cols-3 sm:gap-x-[1%] items-center justify-center",
-  // overflow-scroll
+    "grid overflow-x-auto overflow-y-auto max-w-screen h-[16rem] sm:h-[19rem] sm:grid sm:grid-cols-3 sm:gap-x-[1%] sm:overflow-x-hidden sm:overflow-y-hidden items-center justify-center",
   pSBgCard:
-    "w-[25rem] sm:w-[28rem] sm:h-[17rem] p-2 glass-morphism m-4 rounded-lg cursor-pointer project-card",
+    "w-[23rem] sm:w-[28rem] sm:h-[17rem] p-2 glass-morphism m-4 rounded-lg cursor-pointer project-card",
   projectsCardImg: "w-full h-full object-cover rounded-md",
   info: "info",
   projectsCardText: "font-retro font-semibold text-xl text-white",
