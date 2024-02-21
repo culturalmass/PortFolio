@@ -16,6 +16,7 @@ import P15 from "./projects/P15.jpg";
 import P16 from "./projects/P16.jpg";
 import P17 from "./projects/P17.jpg";
 import P18 from "./projects/P18.jpg";
+import P19 from "./projects/P19.jpg";
 
 export const skill = [
   {
@@ -76,6 +77,12 @@ export const skill = [
 ];
 
 export const projects = [
+  {
+    id: 19,
+    url: "https://pokedex-culturalmass.vercel.app/",
+    image: P19,
+    name: "Original-NextJs-WebApp-PokedexApp",
+  },
   {
     id: 18,
     url: "https://streamingapp-gold.vercel.app/",
