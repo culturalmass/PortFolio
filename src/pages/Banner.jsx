@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { MdOutlineArrowForward } from "react-icons/md";
 import video from "../assets/img/loopBg.mp4";
 import styles from "../styles";
 
@@ -60,9 +60,9 @@ export const Banner = () => {
     <>
       <section className={styles.bSWrapper} id="home">
         <div className={styles.bSContainer}>
-          <button className={styles.bSTitle}>Welcome to my Portfolio</button>
+          <div className={styles.bSTitle}>Welcome to my Portfolio</div>
           <h1 className={styles.bSPromt}>
-            {`Hi! I'm Manuel`}
+            {`Hi! I am Manuel`}
             <span className={styles.bSInfo}>{text}</span>
             <span className={styles.bSPulse}>|</span>
           </h1>
@@ -84,8 +84,8 @@ export const Banner = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Let’s Connect
-            <BsFillArrowRightCircleFill className={styles.bSBtn} />
+            Let&apos;s Connect
+            <MdOutlineArrowForward className={styles.bSBtn} />
           </a>
           <div className={styles.bSVideoWrapper}>
             <video width="800" height="500" loop autoPlay muted>
