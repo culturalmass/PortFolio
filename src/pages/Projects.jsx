@@ -6,7 +6,7 @@ import {
 } from "react-icons/io";
 import styles from "../styles";
 
-const isSmall = window.innerWidth <= 640;
+const isSmall = window.innerWidth <= 768;
 
 export const Projects = () => {
   const slidePagination = isSmall ? 1 : 3;

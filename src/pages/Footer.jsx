@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="">
           © {new Date().getFullYear()} ManuelPortfolio™ All Rights Reserved
         </div>
-        <div className="hidden flex-row sm:flex sm:items-center">
+        <div className="hidden flex-row md:flex md:items-center">
           <a
             href="https://www.linkedin.com/in/manuel-herrera-mu%C3%B1oz-0b453711b/"
             target="_blank"
