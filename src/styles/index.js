@@ -70,7 +70,7 @@ const styles = {
 
   //Footer Section
   fSWrapper:
-    "flex w-screen mt-[1rem] md:-mt-[2rem] md:space-x-[15rem] justify-center items-center text-[0.7rem] md:text-[18px] font-mcten",
+    "flex w-screen mt-[1rem] md:space-x-[15rem] justify-center items-center text-[0.7rem] md:text-[18px] font-mcten",
   fSBtn: "text-[2.5rem] md:flex md:text-[42px]",
   fSBtnGit: "text-[2.3rem] md:flex md:text-[38px]",
 };
