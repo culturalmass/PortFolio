@@ -1,22 +1,22 @@
-import P01 from "./projects/P01.jpg";
-import P02 from "./projects/P02.jpg";
-import P03 from "./projects/P03.jpg";
-import P04 from "./projects/P04.jpg";
-import P05 from "./projects/P05.jpg";
-import P06 from "./projects/P06.jpg";
-import P07 from "./projects/P07.jpg";
-import P08 from "./projects/P08.jpg";
-import P09 from "./projects/P09.jpg";
-import P10 from "./projects/P10.jpg";
-import P11 from "./projects/P11.jpg";
-import P12 from "./projects/P12.jpg";
-import P13 from "./projects/P13.jpg";
-import P14 from "./projects/P14.jpg";
-import P15 from "./projects/P15.jpg";
-import P16 from "./projects/P16.jpg";
-import P17 from "./projects/P17.jpg";
-import P18 from "./projects/P18.jpg";
-import P19 from "./projects/P19.jpg";
+import P01 from "./projects/P01.jpg"
+import P02 from "./projects/P02.jpg"
+import P03 from "./projects/P03.jpg"
+import P04 from "./projects/P04.jpg"
+import P05 from "./projects/P05.jpg"
+import P06 from "./projects/P06.jpg"
+import P07 from "./projects/P07.jpg"
+import P08 from "./projects/P08.jpg"
+import P09 from "./projects/P09.jpg"
+import P10 from "./projects/P10.jpg"
+import P11 from "./projects/P11.jpg"
+import P12 from "./projects/P12.jpg"
+import P13 from "./projects/P13.jpg"
+import P14 from "./projects/P14.jpg"
+import P15 from "./projects/P15.jpg"
+import P16 from "./projects/P16.jpg"
+import P17 from "./projects/P17.jpg"
+import P18 from "./projects/P18.jpg"
+import P19 from "./projects/P19.jpg"
 
 export const skill = [
   {
@@ -74,7 +74,7 @@ export const skill = [
     progress: "70%",
     restStyle: "progress-bar-10",
   },
-];
+]
 
 export const projects = [
   {
@@ -97,7 +97,7 @@ export const projects = [
   },
   {
     id: 16,
-    url: "https://messenger-app-neon.vercel.app/",
+    url: "https://github.com/culturalmass/messengerApp/",
     image: P16,
     name: "Course-NextJs-WebApp-MessengerApp",
   },
@@ -133,7 +133,7 @@ export const projects = [
   },
   {
     id: 10,
-    url: "https://course-next-js-travelap.vercel.app/",
+    url: "https://github.com/culturalmass/Course-NextJS-travelap/",
     image: P10,
     name: "Course-NextJs-WebApp-Hilink",
   },
@@ -163,7 +163,7 @@ export const projects = [
   },
   {
     id: 5,
-    url: "https://main.dj0oyzyd6w80m.amplifyapp.com/",
+    url: "https://github.com/culturalmass/OneHundredProblem/",
     image: P05,
     name: "Original-React-WebApp-OneHundredProblem",
   },
@@ -187,8 +187,8 @@ export const projects = [
   },
   {
     id: 1,
-    url: "https://calendar.dkb4wiugfkoo6.amplifyapp.com/",
+    url: "https://github.com/culturalmass/Course-MERN-WebApp-Calendar/tree/main/",
     image: P01,
     name: "Course-MERN-WebApp-Calendar",
   },
-];
+]
