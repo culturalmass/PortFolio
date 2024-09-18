@@ -31,7 +31,7 @@ const styles = {
     "hidden md:flex ml-[1.5rem] md:text-[1.5rem] border-b-2 w-[15rem] mb-[0.8rem] cursor-default",
   bSInfoText: "hidden text-xl md:flex ml-[1.5rem] cursor-default z-10",
   bSConnect:
-    "z-10 md:z-0 ml-[1.5rem] md:text-[2rem] mt-[1.5rem] flex items-center border-2 bg-gray-900 w-fit pl-2 md:hover:traslate-transform md:hover:-translate-y-1 md:hover:translate-x-1 md:hover:border-b-4 md:hover:border-l-4 md:hover:opacity-50 rounded-r-lg",
+    "z-10 md:z-0 ml-[1.5rem] md:text-[2rem] mt-[1.5rem] flex items-center border-2 bg-gray-900 w-fit pl-2 md:hover:translate-transform md:hover:-translate-y-1 md:hover:translate-x-1 md:hover:border-b-4 md:hover:border-l-4 md:hover:opacity-50 rounded-r-lg",
   bSBtn: "mt-[0.2rem] ml-[1rem] md:text-[3rem]",
   bSVideoWrapper:
     "absolute md:ml-[35rem] opacity-[0.35] drop-shadow-[0px_0px_15px_rgba(196,196,196,0.7)]",
@@ -73,5 +73,5 @@ const styles = {
     "flex w-screen mt-[1rem] md:space-x-[15rem] justify-center items-center text-[0.7rem] md:text-[18px] font-mcten",
   fSBtn: "text-[2.5rem] md:flex md:text-[42px]",
   fSBtnGit: "text-[2.3rem] md:flex md:text-[38px]",
-};
-export default styles;
+}
+export default styles

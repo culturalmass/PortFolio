@@ -79,7 +79,7 @@ export const skill = [
 export const projects = [
   {
     id: 19,
-    url: "https://pokedex-culturalmass.vercel.app/",
+    url: "https://pokedex-fxwm-culturalmass-projects.vercel.app/",
     image: P19,
     name: "Original-NextJs-WebApp-PokedexApp",
   },
